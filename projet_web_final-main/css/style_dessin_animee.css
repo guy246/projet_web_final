@@ -1,8 +1,10 @@
+/* On change l'apparence de notre body */
 body{
     margin: 0;
     background-color: #5FA7D5;
 }
 
+/* On change l'apparence de l'id page */
 #page{
     margin: 0 auto;
     font-style: italic;
@@ -12,12 +14,14 @@ body{
     max-height: 100%;
 }
 
+/* On change l'apparence de la class main */
 .main{
     flex-grow: 1;
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
+/* On change l'apparence de l'id header */
 #header{
     width: 100%;
     position: relative;
@@ -29,6 +33,7 @@ body{
     overflow: visible;
 }
 
+/* On change l'apparence de l'id logo */
 #logo{
     position: absolute;
     top : 0px;
@@ -37,24 +42,31 @@ body{
     width: 77px;
 }
 
+/* On change l'apparence des ul qui sont dans l'id menu */
 #menu, #menu ul{
     padding:0;
     margin:0;
     list-style:none;
 }
+
+/* On change l'apparence de la class liste */
 .liste{
     margin-top: 30px;
 }
 
+/* On change l'apparence des li dans l'id menu */
 #menu li{
     display:inline-block;
     position:relative;
     border: 2px solid lightblue;
 }
+
+/* On donne les mêmes paramètres aux li que les ul */
 #menu ul li{
     display:inherit;
 }
 
+/* On change l'apparence des ul qui sont dans l'id menu */
 #menu ul{
     position:absolute;
     z-index: 1000;
@@ -69,7 +81,7 @@ body{
 #menu li:hover ul{
     max-height:15em;
 }
-/* background des liens #menus */
+
 /* background des liens #menus */
 #menu li:first-child{
     background-color: #65537A;
@@ -123,12 +135,14 @@ body{
     color:#000;
     }
 
+/* On change l'apparence de notre body */
 body{
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+/* On change l'apparence du texte h1 dans notre body */
 body h1{
     font-family: Impact;
     color : white;
@@ -140,6 +154,7 @@ body h1{
     text-align: center;
 }
 
+/* On change l'apparence de la class affiche */
 .affiche{
     border: 2px solid lightblue;
     max-width: 10%;
@@ -149,6 +164,7 @@ body h1{
     display: flex;
 }
 
+/* On change l'apparence de la class film */
 .film{
     padding-left: 0px;
     margin-top : 1%;
@@ -158,6 +174,7 @@ body h1{
     display: flex;
 }
 
+/* On change l'apparence de la class synopsis qui se trouve dans la class film */
 .film .synopsis{
     text-align: center;
     left: 12%;
@@ -199,6 +216,7 @@ button{
     background-color: skyblue;
 }
 
+/* On change l'apparence de l'id footer */
 #footer{
     text-align: center;
     height: 85px;
