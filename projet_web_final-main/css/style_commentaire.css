@@ -1,8 +1,10 @@
+/* On change l'apparence de notre body */
 body{
     margin: 0;
     background-color: #5FA7D5;
 }
 
+/* On change l'apparence de l'id page */
 #page{
     margin: 0 auto;
     font-style: italic;
@@ -12,6 +14,7 @@ body{
     max-height: 100%;
 }
 
+/* On change l'apparence de notre class main */
 .main{
     flex-grow: 1;
     padding-top: 2%;
@@ -19,6 +22,7 @@ body{
     text-align: center;
 }
 
+/* On change l'apparence de l'id du header */
 #header{
     text-align: center;
     height: 77px;
@@ -27,6 +31,7 @@ body{
     overflow: visible;
 }
 
+/* On change l'apparence de l'id du logo */
 #logo{
     position: absolute;
     top : 0px;
@@ -35,24 +40,31 @@ body{
     width: 77px;
 }
 
+/* On change l'apparence de des ul qui se trouve dans l'id menu */
 #menu, #menu ul{
     padding:0;
     margin:0;
     list-style:none;
 }
+
+/* On modifie l'apparence de la class liste */
 .liste{
     margin-top: 30px;
 }
 
+/* On modifie l'apparence des li qui se trouve dans l'id menu */
 #menu li{
     display:inline-block;
     position:relative;
     border: 2px solid lightblue;
 }
+
+/* On change l'apparence des li qui sont dans les ul qui se trouve eux mêmes dans l'id menu */
 #menu ul li{
     display:inherit;
 }
 
+/* On change l'apparence des ul qui se trouve dans l'id menu */
 #menu ul{
     position:absolute;
     z-index: 1000;
@@ -67,7 +79,7 @@ body{
 #menu li:hover ul{
     max-height:15em;
 }
-/* background des liens #menus */
+
 /* background des liens #menus */
 #menu li:first-child{
     background-color: #65537A;
@@ -127,6 +139,7 @@ body{
     background-attachment: fixed;
 }
 
+/* On modifie l'apparence de la class affiche */
 .affiche{
     text-align: center;
     margin: auto;
@@ -137,6 +150,7 @@ body{
     width: 314px;
 }
 
+/* On change l'apparence de la class box */
 .box{
     margin-top: 1%;
     margin-left: auto;
@@ -165,6 +179,7 @@ label{
     margin-left : ;
 }
 
+/* On change l'apparence de l'id bouton1 */
 #bouton1{
     background-color: black;
     border: 2px solid white;
@@ -224,6 +239,7 @@ table td{
     text-align: center;
 }
 
+/* On modifie l'apparence de l'id footer */
 #footer{
     text-align: center;
     height: 85px;
