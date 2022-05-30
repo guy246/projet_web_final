@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!-- cette partie du code consiste à ajouter et voir les commentaires de l'animé princesse mononoke -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Toy Story</title>
 	<link rel="stylesheet" type="text/css" href="../css/style_commentaire.css">
-    <link rel="icon" type="image/png" sizes="16x16" href="../images/logo.jpg">
-    <script type="text/javascript" src="../javascript/script.js"></script>
+    	<link rel="icon" type="image/png" sizes="16x16" href="../images/logo.jpg">
+    	<script type="text/javascript" src="../javascript/script.js"></script>
 </head>
 <body>
+	<!-- cette partie est la barre de navigation, ce qui nous permet de changer de tranche d'âge de type de film ou de retourner à la page d'acceuil -->
+   	<!-- cette première ligne permet lorsqu'on clique sur le logo de retourner à la page d'accueil -->
     <div id= "page">
         <div id="header">
             <a href="../html/page_accueil.html"><img id="logo" src="../images/logo.gif"></a>
             <ul id ="menu">
+		    <!-- cette partie permet la naviagtion un premier lieu par tranche d'âge -->
                     <li class="liste"><a href ="">3 - 7ans</a>
                         <ul>
+			    <!-- puis par type dessin animée ou animée -->
                             <li><a href ="../html/dessin_animee_3-7.html">Dessin animé </a></li>
                             <li><a href ="../html/anime_3-7.html"> Anime</a></li>
                         </ul>
@@ -34,6 +39,7 @@
             </ul>
         </div>
         <div class = "main">
+	    <!-- cette partie permet d'afficher l'image de princesse mononoke -->
             <img class="affiche" src="../images/princesse_mononoke.png">
             <form name="new_comment" action="#" class="box" id="new_comment" onsubmit="return false">
                 <label id="commentaire">Commentaire&nbsp;</label>
