@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Toy Story</title>
+	<link rel="stylesheet" type="text/css" href="../css/style_commentaire.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/logo.jpg">
+    <script type="text/javascript" src="../javascript/script.js"></script>
+</head>
+<body>
+    <div id= "page">
+        <div id="header">
+            <a href="../html/page_accueil.html"><img id="logo" src="../images/logo.gif"></a>
+            <ul id ="menu">
+                    <li class="liste"><a href ="">3 - 7ans</a>
+                        <ul>
+                            <li><a href ="../html/dessin_animee_3-7.html">Dessin animé </a></li>
+                            <li><a href ="../html/anime_3-7.html"> Anime</a></li>
+                        </ul>
+                    </li>
+                    <li class="liste"><a href =""> 7 - 12ans</a>
+                        <ul>
+                            <li><a href ="../html/dessin_animee_7-12.html">Dessin animé </a></li>
+                            <li><a href ="../html/anime_7-12.html"> Anime</a></li>
+                        </ul>
+                    </li>
+                    <li class="liste"><a href="">12 - 16ans</a>
+                    <ul>
+                            <li><a href ="../html/dessin_animee_12-16.html">Dessin animé </a></li>
+                            <li><a href ="../html/anime_12-16.html"> Anime</a></li>
+                        </ul>
+                    </li>
+            </ul>
+        </div>
+        <div class = "main">
+            <img class="affiche" src="../images/princesse_mononoke.png">
+            <form name="new_comment" action="#" class="box" id="new_comment" onsubmit="return false">
+                <label id="commentaire">Commentaire&nbsp;</label>
+                <textarea type="text" name="user_comment" id="user_com" wrap="soft"></textarea>
+                <label for="note_select">Note :</label>
+                <select name="task" id="note_select">
+                    <option value="">--Choisir la note--</option>
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+                <input id="bouton1" type="submit" value="AJOUTER" onclick="addTab()">
+            </form>
+            <table class ="box" text-align="center" id="tab" name="ta">
+                <tr>
+                    <th>Commentaire</th>
+                    <th>Note</th>
+                </tr>
+            </table>
+        </div>
+        <div id = "footer"><a href="../html/a_propos.html"><p>A propos</p></a></div>
+    </body>
+</html>
