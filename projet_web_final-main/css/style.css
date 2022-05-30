@@ -1,3 +1,4 @@
+/* On change l'apparence de notre body */
 body{
     margin: 0px;
     color: black;
@@ -5,6 +6,7 @@ body{
     font-style: italic;
 }
 
+/* On modifie l'apparence de notre header */
 header{
     text-align: center;
     height: 77px;
@@ -13,6 +15,7 @@ header{
     overflow: visible;
 }
 
+/* On change l'apparence de l'id du logo */
 #logo{
     position: absolute;
     top : 0px;
@@ -21,24 +24,31 @@ header{
     width: 77px;
 }
 
+/* On modifie l'apparence des ul contenue dans l'id menu */
 #menu, #menu ul{
     padding:0;
     margin:0;
     list-style:none;
 }
+
+/* On change l'apparence de notre class liste*/
 .liste{
     margin-top: 30px;
 }
 
+/* On modifie l'apparence des ul dans l'id de notre menu */
 #menu li{
     display:inline-block;
     position:relative;
     border: 2px solid lightblue;
 }
+
+/* On donne les mêmes paramètres aux li que les ul */
 #menu ul li{
     display:inherit;
 }
 
+/* On change l'apparence des ul dans l'id menu */
 #menu ul{
     position:absolute;
     z-index: 1000;
@@ -50,9 +60,11 @@ header{
     -webkit-transition: .8s all .3s;
     transition: .8s all .3s;
 }
+
 #menu li:hover ul{
     max-height:15em;
 }
+
 /* background des liens #menus */
 #menu li:first-child{
     background-color: #65537A;
@@ -108,6 +120,7 @@ header{
     color:#000;
     }
 
+/* On change l'apparence de notre body */
 body{
     background-image: url("../images/background.png");
     background-repeat: no-repeat;
@@ -130,6 +143,7 @@ body background-image{
     left: 0;
 }
 
+/* On change l'apparence de notre body concernant les textes en h1 */
 body h1{
     font-family: Impact;
     color : white;
@@ -141,6 +155,7 @@ body h1{
     padding-top:15%;
 }
 
+/* On change l'apparence de notre body concernant les textes en h2 */
 body h2{
     text-align: center;
     font-family: Impact;
@@ -151,6 +166,7 @@ body h2{
     margin: 0px;
 }
 
+/* On change l'apparence de notre footer */
 footer{
     text-align: center;
     height: 85px;
