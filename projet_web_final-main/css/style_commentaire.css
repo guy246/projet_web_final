@@ -59,7 +59,7 @@ body{
     border: 2px solid lightblue;
 }
 
-/* On change l'apparence des li qui sont dans les ul qui se trouve eux mêmes dans l'id menu */
+/* On donne les mêmes paramètres aux li que les ul */
 #menu ul li{
     display:inherit;
 }
